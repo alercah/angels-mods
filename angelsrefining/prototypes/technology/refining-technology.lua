@@ -73,6 +73,7 @@ data:extend(
     {
       type = "technology",
       name = "advanced-ore-refining-1",
+      localised_description = {"technology-description.advanced-ore-refining-1"},
       icon = "__angelsrefining__/graphics/technology/ore-sorting.png",
       icon_size = 128,
       prerequisites = {
@@ -303,6 +304,7 @@ data:extend(
     {
       type = "technology",
       name = "advanced-ore-refining-2",
+      localised_description = {"technology-description.advanced-ore-refining-2"},
       icon = "__angelsrefining__/graphics/technology/ore-sorting.png",
       icon_size = 128,
       prerequisites = {
@@ -647,6 +649,7 @@ data:extend(
     {
       type = "technology",
       name = "advanced-ore-refining-3",
+      localised_description = {"technology-description.advanced-ore-refining-3"},
       icon = "__angelsrefining__/graphics/technology/ore-sorting.png",
       icon_size = 128,
       prerequisites = {
@@ -833,6 +836,7 @@ data:extend(
     {
       type = "technology",
       name = "advanced-ore-refining-4",
+      localised_description = {"technology-description.advanced-ore-refining-4"},
       icon = "__angelsrefining__/graphics/technology/ore-sorting.png",
       icon_size = 128,
       prerequisites = {
@@ -911,6 +915,7 @@ data:extend(
     {
       type = "technology",
       name = "ore-powderizer",
+      localised_description = {"technology-description.ore-powderizer.bioprocessing"},
       icon = "__angelsrefining__/graphics/technology/powderizer-tech.png",
       icon_size = 128,
       prerequisites = {

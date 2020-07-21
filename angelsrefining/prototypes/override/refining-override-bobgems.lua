@@ -1,10 +1,10 @@
 local OV = angelsmods.functions.OV
 
-local create_single_gem_crystallization = function(recipe_bace_name, ores)
+local create_single_gem_crystallization = function(recipe_base_name, ores)
   local recipes = {}
   for ore_index, ore_data in pairs(ores or {}) do
     local recipe = {
-      name = string.format(recipe_bace_name, ore_index),
+      name = string.format(recipe_base_name, ore_index),
       results = {{"!!"}},
       subgroup = "bob-gems-crystallization"
     }
